@@ -1,0 +1,15 @@
+body{
+    background-color: white;
+}
+
+
+article{
+    width:20%;
+    background-color: blueviolet;
+}
+
+article, img{
+    display: flex;
+    justify-content: center;
+}
+
