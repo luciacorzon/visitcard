@@ -36,3 +36,7 @@ footer button{
     font-family: Inter;
     color:mediumpurple
 }
+
+footer, button:nth-child(1){
+    
+}
