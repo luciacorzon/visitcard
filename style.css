@@ -1,15 +1,38 @@
 body{
     background-color: white;
+    text-align: center;
+    
 }
-
 
 article{
-    width:20%;
-    background-color: blueviolet;
-}
-
-article, img{
     display: flex;
+    position: relative;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left:600px;
+    margin-right: 600px;
+    background-color: mediumpurple;
 }
 
+article p {
+    white-space: pre-line;
+    font-family: Inter;
+    color:aqua;
+}
+
+article h1{
+    font-family: Agbalumo;
+    color:aqua;
+}
+
+article img{
+    border-radius: 2%;
+    outline-width: 2px;
+    box-shadow: 0 0 0 2px aqua;
+}
+
+footer button{
+    font-family: Inter;
+    color:mediumpurple
+}
