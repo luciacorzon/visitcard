@@ -32,11 +32,32 @@ article img{
     box-shadow: 0 0 0 2px aqua;
 }
 
-footer button{
-    font-family: Inter;
-    color:mediumpurple
+footer{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
 }
 
-footer, button:nth-child(1){
-    
+footer button{
+    font-family: Inter;
+    color:mediumpurple;
+    text-transform: uppercase;
+}
+
+footer button:nth-child(1) {
+    padding: 8px;
+    background-color: white;
+    border-radius: 5px;
+    outline-width: 2px;
+    box-shadow: 0 0 0 2px aqua;
+    border: none;
+}
+
+footer button:nth-child(2) {
+    padding: 8px;
+    background-color: aqua;
+    border-radius: 5px;
+    outline-width: 2px;
+    box-shadow: 0 0 0 2px white;
+    border: none;
 }
